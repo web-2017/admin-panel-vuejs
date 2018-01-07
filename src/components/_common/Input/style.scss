@@ -1,0 +1,12 @@
+.input-field {
+  width: 60%;
+  border-radius: 5px;
+  background: #fff;
+  padding: 7px;
+  border: 0 none;
+  margin-right: 10px;
+
+  &[data-error] {
+    border: 1px solid red;
+  }
+}

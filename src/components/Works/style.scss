@@ -1,0 +1,32 @@
+.upload {
+  display: inline-flex;
+  align-items: center;  
+  cursor: pointer;
+}
+
+.upload__text {
+  color: rgba(0, 191, 165, 0.7);
+  margin-top: -8px;
+}
+
+.type-file {
+  display: none;
+}
+
+.upload__icon {
+  background: svg('~img/icons/image-pic.svg', '#fff') center center no-repeat;
+  width: 35px;
+  height: 34px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: firebrick;
+}

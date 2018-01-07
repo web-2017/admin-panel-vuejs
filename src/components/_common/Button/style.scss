@@ -1,0 +1,17 @@
+button {
+  padding: 16px 20px;
+  border-radius: 5px;
+  background-color: #00bfa5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: darken(#00bfa5, 10%);
+  }
+
+  &[disabled] {
+    cursor: default;
+    background: #ccc;
+  }
+}

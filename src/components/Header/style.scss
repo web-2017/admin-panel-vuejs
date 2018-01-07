@@ -1,0 +1,21 @@
+header {
+  padding: 20px 30px;
+  display: flex;
+  background: $green;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-text {
+  color: #fff;
+  font-size: 28px;
+}
+
+.return-back {
+  font-size: 16px;
+  color: #fff;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

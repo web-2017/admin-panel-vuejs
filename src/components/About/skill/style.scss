@@ -1,0 +1,36 @@
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+
+  &:hover {
+    .remove-btn {
+      display: block;
+    }
+  }
+}
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.skill-name {
+  margin-right: 20px;
+}
+
+.skill-input {
+  width: 46px;
+  text-align: center;
+}
+
+.remove-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  display: none;
+}

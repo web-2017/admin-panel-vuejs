@@ -1,0 +1,14 @@
+{
+    "extends": "vue",
+    "rules": {
+      "space-before-function-paren" : [0, "never"]
+    },
+    "globals": {
+      "_": true,
+      "Vue": true,
+      "$router": true
+    },
+    "env" : {
+      "browser": true
+    }
+}

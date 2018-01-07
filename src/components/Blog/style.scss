@@ -1,0 +1,29 @@
+.form-title {
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+.table {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.posts {
+  width: 100%;
+}
+
+.blog-textarea {
+  width: 80%;
+  height: 165px;
+}
